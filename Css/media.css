@@ -130,6 +130,12 @@ width: 100%;
     margin: auto;
 }
 }
+@media (max-width:545px) {
+    header .container ul.links li a {
+        padding: 5px;
+        font-size: 14px;
+    }
+}
 @media (min-width:991px)and (max-width:1024px) {
     .landing .container img {
         width: 50%;
